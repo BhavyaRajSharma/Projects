@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vivek.miniproject.SplashActivity"
+    android:background="@color/colorPrimaryDark"
+    >
+
+
+    <ImageView
+        android:layout_marginTop="50sp"
+        android:id="@+id/SplashImageIcon"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:src="@mipmap/project_icon"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:id="@+id/SplashAppName"
+        android:text="@string/app_name"
+        android:textColor="#ffffff"
+        android:textSize="36dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_below="@+id/SplashAppName"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:text="- Vivek And Tapish "
+        />
+</RelativeLayout>

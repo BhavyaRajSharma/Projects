@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "562881219477",
+    "firebase_url": "https://miniproject-dcd97.firebaseio.com",
+    "project_id": "miniproject-dcd97",
+    "storage_bucket": "miniproject-dcd97.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562881219477:android:8448f05dd6dfce9a",
+        "android_client_info": {
+          "package_name": "com.example.vivek.miniproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "562881219477-ib0holn5n5d2m67f4db72k9a5hok3j1l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpFVwuyZqKJzaNXDWzUG0xW80_v_mO1KU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

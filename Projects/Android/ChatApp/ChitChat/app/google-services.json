@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "1076245284423",
+    "firebase_url": "https://friendlychat-c8d6a.firebaseio.com",
+    "project_id": "friendlychat-c8d6a",
+    "storage_bucket": "friendlychat-c8d6a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1076245284423:android:64e58dacc0483faa",
+        "android_client_info": {
+          "package_name": "com.google.firebase.udacity.friendlychat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1076245284423-poucr7he7ukn4p733m2d6j1q1iap3lc7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.google.firebase.udacity.friendlychat",
+            "certificate_hash": "5e1a69ba2db76e9e0753597696a9082bfc1c7e78"
+          }
+        },
+        {
+          "client_id": "1076245284423-r8mrk1862ktp8vopavhblo1gdd943tia.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFxwV6PNL3zP5MxzE-5ybWd9-MFigq4E8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1076245284423-r8mrk1862ktp8vopavhblo1gdd943tia.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1076245284423:android:487fdbf59af15fd6",
+        "android_client_info": {
+          "package_name": "com.example.bhavyarajsharma.chitchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1076245284423-f6ghe058ufahm8jdbq1duh33bkjml9ls.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bhavyarajsharma.chitchat",
+            "certificate_hash": "5e1a69ba2db76e9e0753597696a9082bfc1c7e78"
+          }
+        },
+        {
+          "client_id": "1076245284423-r8mrk1862ktp8vopavhblo1gdd943tia.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFxwV6PNL3zP5MxzE-5ybWd9-MFigq4E8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1076245284423-r8mrk1862ktp8vopavhblo1gdd943tia.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
