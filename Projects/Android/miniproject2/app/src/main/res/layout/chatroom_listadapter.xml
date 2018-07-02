@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/message_sender_id"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+
+        android:visibility="gone"
+        >
+        <TextView
+            android:id="@+id/message_sender_id_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="USER"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:id="@+id/chatroom_message_list_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text message"
+        android:id="@+id/chatroom_message_list_box_textview1"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+        <ImageView
+            android:id="@+id/chatroom_message_list_box_image_view1"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/ic_launcher"
+            />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_margin="10dp"
+        android:id="@+id/chatroom_message_list_box1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/chatroom_message_list_box_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text message"
+            android:layout_alignParentRight="true"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+        <ImageView
+            android:id="@+id/chatroom_message_list_box_image_view"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/chatroom_message_list_box_textview"
+            android:src="@mipmap/ic_launcher" />
+    </RelativeLayout>
+</LinearLayout>
