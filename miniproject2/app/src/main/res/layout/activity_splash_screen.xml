@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fareshare.maniacers.fareshare.SplashScreen"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:id="@+id/SplashImageIcon"
+        android:layout_width="146dp"
+        android:layout_height="146dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="85dp"
+        android:src="@drawable/fareshare" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/SplashImageIcon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:text="Fare Share"
+        android:textStyle="italic"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="268dp"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="- Bhavya Divyanshu Tanya Vivek "
+        android:textSize="12dp"
+        tools:ignore="UnknownId"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="329dp" />
+
+</RelativeLayout>
